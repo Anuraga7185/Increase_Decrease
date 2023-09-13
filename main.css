@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box ;
+font-family: Arial, Helvetica, sans-serif;
+}
+body,html{
+    display:grid;
+    min-height: 100%;
+    place-items: center;
+    background-color: #a8c1c6;
+}
+.card{
+    
+width: 600px;
+height: 350px;
+box-shadow: 10px 10px 15px rgb(201, 149, 149), -10px -10px 15px white;
+justify-content: center;
+align-items:center ;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+
+}
+
+.name{
+    font-size: 3rem;
+    padding:0 8px;
+  
+
+}
+
+#counter{
+    font-size: 4rem;
+    color:rgb(153, 107, 74);
+    margin-top: 40px;
+  
+    margin-bottom: 3rem;
+}
+.lower, .add{
+    outline:none;
+    font-size: 2.0rem;
+    margin-top: 40px;
+    padding: 0.7rem 1rem; 
+    color:#37565c;
+    background-color: rgb(194, 153, 99);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1.5rem;
+}
